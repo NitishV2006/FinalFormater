@@ -1,11 +1,11 @@
-
 {
   "name": "final-formatter",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "express": "^4.18.2",
