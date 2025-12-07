@@ -7,7 +7,7 @@ import { GoogleGenAI } from '@google/genai';
 
 // Initialize App
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 // Setup Multer for memory storage (files stored in RAM as buffers)
 const upload = multer({ 
